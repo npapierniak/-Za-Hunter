@@ -11,6 +11,7 @@
 		EFEED6362B89044B00DA36D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEED6352B89044B00DA36D3 /* ContentView.swift */; };
 		EFEED6382B89044C00DA36D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEED6372B89044C00DA36D3 /* Assets.xcassets */; };
 		EFEED63B2B89044C00DA36D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEED63A2B89044C00DA36D3 /* Preview Assets.xcassets */; };
+		EFEED6422B89052100DA36D3 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEED6412B89052100DA36D3 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		EFEED6352B89044B00DA36D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFEED6372B89044C00DA36D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFEED63A2B89044C00DA36D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFEED6412B89052100DA36D3 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EFEED6432B89059500DA36D3 /* -Za-Hunter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-Za-Hunter-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		EFEED6322B89044B00DA36D3 /* 'Za Hunter */ = {
 			isa = PBXGroup;
 			children = (
+				EFEED6432B89059500DA36D3 /* -Za-Hunter-Info.plist */,
 				EFEED6332B89044B00DA36D3 /* _Za_HunterApp.swift */,
 				EFEED6352B89044B00DA36D3 /* ContentView.swift */,
+				EFEED6412B89052100DA36D3 /* LocationManager.swift */,
 				EFEED6372B89044C00DA36D3 /* Assets.xcassets */,
 				EFEED6392B89044C00DA36D3 /* Preview Content */,
 			);
@@ -139,6 +144,7 @@
 			files = (
 				EFEED6362B89044B00DA36D3 /* ContentView.swift in Sources */,
 				EFEED6342B89044B00DA36D3 /* _Za_HunterApp.swift in Sources */,
+				EFEED6422B89052100DA36D3 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +276,8 @@
 				DEVELOPMENT_TEAM = H8RFSXNM24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-Za-Hunter-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +307,8 @@
 				DEVELOPMENT_TEAM = H8RFSXNM24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-Za-Hunter-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
