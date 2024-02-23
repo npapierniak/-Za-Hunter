@@ -34,7 +34,6 @@ struct ContentView: View {
             .onAppear(perform: {
                 performSearch(item: "Pizza")
             })
-        
     }
     func performSearch(item: String) {
         let searchRequest = MKLocalSearch.Request()
